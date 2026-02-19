@@ -1,16 +1,6 @@
 ---
 name: agent-hea6-ducklake
-description: |
-  当需要查询或分析高熵合金(HEA)描述符数据时使用。
-  
-  适用场景：
-  - 根据6种元素组合查询对应的描述符数据表
-  - 按描述符条件筛选满足特定性质的合金成分
-  - 关联描述符与成分比例(con_index JOIN hea_con_6)
-  - 跨多个元素组合批量搜索符合条件的成分
-  - 导出特定系统的全部描述符数据用于ML训练
-  
-  数据范围：15个元素中任选6个组成的5005种高熵合金系统。
+description: Use when querying or analyzing High Entropy Alloy (HEA) descriptor data. Supports searching by element combinations, filtering by properties, and exporting data for ML training.
 ---
 
 # HEA DuckLake Skill
